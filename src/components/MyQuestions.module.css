@@ -1,0 +1,52 @@
+
+.myQuestionHeading{
+    font-size: 24px;
+    font-weight: bolder;
+    color: rgb(29, 29, 83);
+    margin-bottom: 13px;
+    margin-top: 0;
+}
+
+.serialNum{
+    color: rgb(92, 22, 22);
+    font-weight: bold;
+    
+}
+/* MyQuestions.module.css */
+.myQuestion {
+    display: flex;
+    justify-content: space-between; /* Pushes the children to the start and end */
+    align-items: center; /* Aligns items vertically */
+    background: #afb0b4;
+}
+ 
+.questionContainer {
+    display: inline-block; /* Ensure the container behaves as a block but flows inline */
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set the text color to black */
+    display: flex; /* Set the container to flex */
+    flex-direction: row; /* Arrange child elements in a row */
+  }
+  
+  .myQuestion {
+  
+  }
+  
+  .questionDate {
+    /* margin-left: auto;  */
+  }
+  
+  .serialNum {
+  
+  }
+  
+/*   
+.question {
+    margin: 2px; /* Remove default margins 
+    margin-left: 4px;
+}
+
+/* .questionDate {
+    margin-left: auto; /* Pushes the date to the extreme right */
+    /* margin-right: 3px;
+}   */

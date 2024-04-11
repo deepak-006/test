@@ -1,0 +1,37 @@
+.editor {
+    /* position: absolute; */
+    width: 98%;
+    height: 85vh; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+}
+
+.submitBtnContainer{
+    margin-top: 5px;
+    /* width: 50px; */
+    /* cursor: pointer; */
+}
+ .editorInput{
+    height: 80%;
+    width: 85%;
+}
+
+.btn{
+    background-color: blanchedalmond;
+}
+
+.Submitting {
+    animation: pulse 1s infinite alternate; 
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+  

@@ -1,0 +1,11 @@
+.askquestion {
+    position: fixed;
+    bottom: 50px; /* Adjust this value to change the distance from the bottom */
+    left: 50px; /* Adjust this value to change the distance from the left */
+    text-decoration: none;
+    color: rgb(9, 37, 37);
+    font-weight: 900;
+    background-color: rgb(197, 143, 27);
+    font-size: 22px;
+    padding: 10px 20px; /* Adjust padding as needed */
+}

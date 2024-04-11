@@ -1,0 +1,32 @@
+.container {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .list-item {
+    margin-bottom: 10px;
+  }
+  
+  .link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .Back{
+    font-size: 19px;
+  }

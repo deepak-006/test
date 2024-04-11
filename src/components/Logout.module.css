@@ -1,0 +1,53 @@
+/* Logout.module.css */
+
+.dropdown {
+    position: relative;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 100%;
+    width: 167px;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    z-index: 1000; /* Ensure menu appears above other elements */
+  }
+  
+  
+  .userIcon {
+    cursor: pointer;
+  }
+  
+ 
+  
+  .userName {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+  }
+  .userIcon{
+    position: cursor;
+  }
+  
+  
+  .logoutButton {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    font-size: 14px;
+    text-align: left;
+    color: #fff;
+
+    background-color: red;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .logoutButton:hover {
+    background-color: #3b0b0b;
+  }
+  

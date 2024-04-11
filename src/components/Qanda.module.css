@@ -1,0 +1,18 @@
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    background-color: #364555;
+    color: #fff;
+  }
+  
+  .header {
+    font-size: 24px;
+  }
+  
+  .header a {
+    text-decoration: none; /* Remove underline */
+    color: #fff;
+  }
+  

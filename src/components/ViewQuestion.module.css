@@ -1,0 +1,117 @@
+/* Styles for the container */
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+/* Loading text styles */
+.loading {
+  font-size: 18px;
+  color: #867b7b;
+}
+
+/* List styles for questions */
+.questionList {
+  list-style: none;
+  padding: 0;
+}
+
+/* Styles for each question item */
+.questionItem {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styles for the question content */
+.questionContent {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  flex-grow: 1;
+}
+
+/* Hover effect for question content */
+.questionContent:hover {
+  background-color: #f0f0f0;
+}
+
+/* Styles for serial number */
+.serialNumber {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Styles for feedback section */
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* Pagination container styles */
+.pagination {
+  margin-top: 20px;
+  display: flex; /* Display buttons in a row */
+}
+
+/* Styles for pagination buttons */
+.pageButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* Disabled state styles for pagination buttons */
+.pageButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Remove focus outline for pagination buttons */
+.pageButton:focus {
+  outline: none;
+}
+
+/* Active page styles */
+.activePage {
+  background-color: #0056b3;
+}
+
+/* Styles for window */
+.window {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 999;
+}
+
+/* Styles for window content */
+.windowContent {
+  width: 1152px;
+  height: 380px;
+  margin: 0 auto;
+}
+
+
+/* Styles for back button */
+.backButton {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}

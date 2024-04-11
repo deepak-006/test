@@ -1,0 +1,9 @@
+.askBtn{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    color: brown;
+    background-color: aquamarine;
+    border-radius: 5px;
+    
+}

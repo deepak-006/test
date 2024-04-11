@@ -1,0 +1,32 @@
+.heading{
+    font-size: 18px;
+}
+.likeContainer{
+    float: left;
+}
+.dislikeContainer{
+    float: left;
+}
+.commentContainer{
+    float: left;
+}
+
+.feedbackContainer {
+    position: fixed;
+    bottom: 0;
+    left: 10; /* or adjust as needed */
+    width: 100%; /* or adjust as needed */
+    background-color: #fff; /* or your desired background color */
+    /* Add any other styles you want */
+}
+
+/* CSS for all buttons */
+.likeContainer {
+    background-color: #fff; /* Default background color */
+    color: #000; /* Default text color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+  }
+  
+  
